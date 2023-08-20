@@ -3,8 +3,8 @@
 After [forking the repo from GitHub](https://help.github.com/articles/fork-a-repo) and [installing pnpm](https://pnpm.io/installation):
 
 ```shell
-git clone https://github.com/<your-name-here>/template-typescript-node-package
-cd template-typescript-node-package
+git clone https://github.com/<your-name-here>/usd-query
+cd usd-query
 pnpm install
 ```
 
@@ -63,7 +63,7 @@ Add the `--coverage` flag to compute test coverage and place reports in the `cov
 pnpm run test --coverage
 ```
 
-Note that [console-fail-test](https://github.com/JoshuaKGoldberg/console-fail-test) is enabled for all test runs.
+Note that [console-fail-test](https://github.com/laststance/console-fail-test) is enabled for all test runs.
 Calls to `console.log`, `console.warn`, and other console methods will cause a test to fail.
 
 ### Debugging Tests
@@ -86,48 +86,3 @@ Add `--watch` to keep the type checker running in a watch mode that updates the 
 ```shell
 pnpm tsc --watch
 ```
-
-## The Hydration Script
-
-This template's "hydration" script is located in `src/hydrate/`.
-It needs to be [built](#building) before it can be run.
-
-Be warned that running the hydration script in a repository -including this one- will modify that repository.
-To test out the script, you may want to create a new test repository to run on:
-
-```shell
-cd ..
-mkdir temp
-cd temp
-echo node_modules > .gitignore
-git init
-npm init --yes
-```
-
-Then, in that directory, you can directly call the hydration script:
-
-```shell
-node ../template-typescript-node-package/lib/hydrate/index.js -- description "Hooray, trying things out locally."
-```
-
-Along with the hydration script itself, end-to-end tests are removed on package setup.
-
-## The Setup Script
-
-This template's "setup" script is located in `script/`.
-
-### Testing the Setup Script
-
-This template source includes an "end-to-end" test for `script/setup.js`.
-You can run it locally on the command-line:
-
-```shell
-pnpm run setup:test
-```
-
-That end-to-end test executes `script/setup-test-e2e.js`, which:
-
-1. Runs the setup script using `--skip-api`
-2. Checks that the local repository's files were changed correctly (e.g. removed setup-only files)
-
-Along with the setup script itself, end-to-end tests are removed on package setup.

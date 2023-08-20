@@ -23,7 +23,7 @@ jobs:
           script: |
             try {
               await github.request(
-                `DELETE /repos/JoshuaKGoldberg/template-typescript-node-package/branches/main/protection`,
+                `DELETE /repos/laststance/usd-query/branches/main/protection`,
               );
             } catch (error) {
               if (!error.message?.includes?.("Branch not protected")) {
@@ -43,7 +43,7 @@ jobs:
           github-token: ${{ secrets.ACCESS_TOKEN }}
           script: |
             github.request(
-              `PUT /repos/JoshuaKGoldberg/template-typescript-node-package/branches/main/protection`,
+              `PUT /repos/laststance/usd-query/branches/main/protection`,
               {
                 allow_deletions: false,
                 allow_force_pushes: true,
@@ -52,8 +52,8 @@ jobs:
                 block_creations: false,
                 branch: "main",
                 enforce_admins: false,
-                owner: "JoshuaKGoldberg",
-                repo: "template-typescript-node-package",
+                owner: "laststance",
+                repo: "usd-query",
                 required_conversation_resolution: true,
                 required_linear_history: false,
                 required_pull_request_reviews: null,
