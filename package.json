@@ -66,8 +66,5 @@
   },
   "volta": {
     "node": "18.17.1"
-  },
-  "publishConfig": {
-    "provenance": true
   }
 }
