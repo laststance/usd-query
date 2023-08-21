@@ -27,7 +27,8 @@
     "lint:spelling": "cspell \"**\" \".github/**/*\"",
     "lint:types": "tsc --noEmit",
     "should-semantic-release": "should-semantic-release --verbose",
-    "test": "vitest"
+    "test": "vitest",
+    "release": "release-it"
   },
   "lint-staged": {
     "*": "prettier --ignore-unknown --write"
