@@ -1,16 +1,5 @@
 {
   "$schema": "http://json.schemastore.org/prettierrc",
-  "overrides": [
-    {
-      "files": ".*rc",
-      "options": {
-        "parser": "json"
-      }
-    }
-  ],
-  "plugins": ["prettier-plugin-curly", "prettier-plugin-packagejson"],
-  "useTabs": false,
-  "tabWidth": 2,
   "singleQuote": true,
   "semi": false
 }

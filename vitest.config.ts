@@ -10,7 +10,9 @@ export default defineConfig({
       provider: 'istanbul',
       reporter: ['html', 'lcov'],
     },
+    environment: 'jsdom',
     exclude: ['lib', 'node_modules'],
+    globals: true,
     setupFiles: ['console-fail-test/setup'],
   },
 })
