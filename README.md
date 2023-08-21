@@ -38,10 +38,14 @@ import { $ } from 'usd-query'
 $('.foo') // document.querySelector('.foo')
 ```
 
+
 ## Development
 
 See [`.github/CONTRIBUTING.md`](./.github/CONTRIBUTING.md), then [`.github/DEVELOPMENT.md`](./.github/DEVELOPMENT.md).
 Thanks! 💖
+
+## Credit
+- [bling.js](https://gist.github.com/paulirish/12fb951a8b893a454b32)
 
 ## Contributors
 
