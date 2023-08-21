@@ -11,7 +11,8 @@
     "eslint-import-resolver-typescript",
     "eslint-plugin-import",
     "eslint-plugin-prettier",
-    "eslint-plugin-sort-keys-fix"
+    "eslint-plugin-sort-keys-fix",
+    "husky"
   ],
   "ignoreExportsUsedInFile": {
     "interface": true,
