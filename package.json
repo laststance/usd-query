@@ -25,6 +25,7 @@
     "lint:fix": "eslint . --ext .js,.cjs,.ts --fix",
     "lint:knip": "knip",
     "lint:spelling": "cspell \"**\" \".github/**/*\"",
+    "lint:types": "tsc --noEmit",
     "should-semantic-release": "should-semantic-release --verbose",
     "test": "vitest"
   },
