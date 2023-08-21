@@ -9,6 +9,6 @@
     "releaseName": "v${version}"
   },
   "npm": {
-    "publishArgs": ["--public"]
+    "publishArgs": ["--provenance"]
   }
 }
