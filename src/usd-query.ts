@@ -1,4 +1,4 @@
-import type { EventNameString } from '.'
+import type { EventNameString } from './types'
 const $ = document.querySelector.bind(document)
 const $$ = document.querySelectorAll.bind(document)
 
