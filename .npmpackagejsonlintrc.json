@@ -1,4 +1,4 @@
 {
-	"extends": "npm-package-json-lint-config-default",
-	"rules": { "require-description": "error", "require-license": "error" }
+  "extends": "npm-package-json-lint-config-default",
+  "rules": { "require-description": "error", "require-license": "error" }
 }

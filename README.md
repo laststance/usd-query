@@ -33,9 +33,9 @@ npm i usd-query
 ```
 
 ```ts
-import { greet } from "usd-query";
+import { greet } from 'usd-query'
 
-greet("Hello, world!");
+greet('Hello, world!')
 ```
 
 ## Development
