@@ -33,9 +33,9 @@ npm i usd-query
 ```
 
 ```ts
-import { greet } from 'usd-query'
+import { $ } from 'usd-query'
 
-greet('Hello, world!')
+$('.foo') // document.querySelector('.foo')
 ```
 
 ## Development

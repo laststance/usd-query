@@ -4,7 +4,14 @@
   "ignoreBinaries": ["gh"],
   "ignoreDependencies": [
     // https://github.com/webpro/knip/issues/207
-    "c8"
+    "c8",
+    "@typescript-eslint/eslint-plugin",
+    "@typescript-eslint/parser",
+    "eslint-config-prettier",
+    "eslint-import-resolver-typescript",
+    "eslint-plugin-import",
+    "eslint-plugin-prettier",
+    "eslint-plugin-sort-keys-fix"
   ],
   "ignoreExportsUsedInFile": {
     "interface": true,
