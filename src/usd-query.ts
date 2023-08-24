@@ -21,4 +21,5 @@ NodeList.prototype.on = NodeList.prototype.addEventListener = function (
   })
 }
 
-export { $, $$ }
+export { $$ }
+export default $

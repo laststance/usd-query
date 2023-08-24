@@ -1,4 +1,4 @@
-import { $ } from '../index'
+import $ from '../index'
 describe('$', () => {
   beforeEach(() => {
     document.body.innerHTML = `

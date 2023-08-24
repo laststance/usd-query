@@ -1,1 +1,3 @@
-export * from './usd-query'
+import $, { $$ } from './usd-query'
+export { $$ }
+export default $
