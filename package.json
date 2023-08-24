@@ -1,6 +1,6 @@
 {
   "name": "usd-query",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Just make $ alias for document.querySelector.",
   "repository": {
     "type": "git",
