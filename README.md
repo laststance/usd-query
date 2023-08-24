@@ -33,7 +33,7 @@ npm i usd-query
 ```
 
 ```ts
-import { $ } from 'usd-query'
+import $ from 'usd-query'
 
 $('.foo') // document.querySelector('.foo')
 ```
