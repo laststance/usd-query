@@ -29,6 +29,9 @@
     "test": "vitest",
     "release": "release-it"
   },
+  "git": {
+  "pre-commit": "lint-staged"
+},
   "lint-staged": {
     "*": "prettier --ignore-unknown --write"
   },
