@@ -15,13 +15,13 @@ jobs:
           commit_sha=$(git rev-parse HEAD)
           repo_url="https://api.github.com/repos/${{ github.repository }}"
           checks_url="${repo_url}/commits/${commit_sha}/check-runs"
-          
+
           # Fetch all check runs for the commit
           response=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -H "Accept: application/vnd.github.v3+json" $checks_url)
-          
+
           # Check if all check runs have completed and succeeded
           all_passed=$(echo "$response" | jq -r 'all(.check_runs[] | select(.status == "completed") .conclusion == "success")')
-          
+
           if [ "$all_passed" == "true" ]; then
             echo "ALL_CHECKS_PASSED=true" >> $GITHUB_ENV
           else
@@ -34,7 +34,7 @@ jobs:
         id: metadata
         uses: dependabot/fetch-metadata@v1
         with:
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
+          github-token: '${{ secrets.GITHUB_TOKEN }}'
       - name: Approve a PR
         if: env.ALL_CHECKS_PASSED == 'true'
         run: gh pr review --approve "$PR_URL"

@@ -1,8 +1,5 @@
 module.exports = {
-  extends: [
-    'ts-prefixer',
-    'plugin:vitest/recommended',
-  ],
+  extends: ['ts-prefixer', 'plugin:vitest/recommended'],
   plugins: ['vitest'],
   rules: {},
 }
