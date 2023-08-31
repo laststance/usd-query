@@ -20,19 +20,18 @@
   ],
   "scripts": {
     "build": "tsup",
-    "format": "prettier \"**/*\" --ignore-unknown",
-    "format:write": "pnpm format --write",
-    "lint": "npm-run-all --parallel lint:*",
+    "prettier": "prettier --ignore-unknown --write .",
+    "lint": "eslint . --ext .js,.cjs,.ts",
     "lint:fix": "eslint . --ext .js,.cjs,.ts --fix",
     "lint:knip": "knip",
     "lint:spelling": "cspell \"**\" \".github/**/*\"",
-    "lint:types": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
     "test": "vitest",
     "release": "release-it",
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*": "prettier --ignore-unknown --write"
+    "*": "prettier --ignore-unknown --write ."
   },
   "devDependencies": {
     "@types/eslint": "^8.44.2",
