@@ -10,6 +10,7 @@
   "author": "Ryota Murakami <dojce1048@gmail.com> (https://github.com/ryota-murakami)",
   "type": "module",
   "main": "./lib/index.js",
+  "types": "./lib/types.d.ts",
   "sideEffects": false,
   "files": [
     "bin/",
@@ -55,7 +56,6 @@
     "vitest": "^0.34.2",
     "husky": "^8.0.0"
   },
-  "packageManager": "pnpm@8.7.0",
   "engines": {
     "node": ">=18"
   },
