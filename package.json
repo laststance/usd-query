@@ -30,7 +30,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*": "prettier --ignore-unknown --write ."
+    "*": "prettier --ignore-unknown --write"
   },
   "devDependencies": {
     "@types/eslint": "^8.44.2",
