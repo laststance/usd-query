@@ -13,17 +13,22 @@
 	<a href="https://codecov.io/gh/laststance/usd-query" target="_blank">
 		<img alt="Codecov Test Coverage" src="https://codecov.io/gh/laststance/usd-query/branch/main/graph/badge.svg"/>
 	</a>
-	<a href="https://github.com/laststance/usd-query/blob/main/.github/CODE_OF_CONDUCT.md" target="_blank">
-		<img alt="Code of Conduct: Enforced 🤝" src="https://img.shields.io/badge/code_of_conduct-enforced_🤝-21bb42" />
-	</a>
-	<a href="https://github.com/laststance/usd-query/blob/main/LICENSE.md" target="_blank">
-	    <img alt="License: MIT 📝" src="https://img.shields.io/badge/license-MIT_📝-21bb42.svg">
-    </a>
 	<a href="https://github.com/sponsors/laststance" target="_blank">
-    	<img alt="Sponsor: On GitHub 💸" src="https://img.shields.io/badge/sponsor-on_github_💸-21bb42.svg" />
-    </a>
-	<img alt="Style: Prettier 🧹" src="https://img.shields.io/badge/style-prettier_🧹-21bb42.svg" />
-    <img alt="TypeScript: Strict 💪" src="https://img.shields.io/badge/typescript-strict_💪-21bb42.svg" />
+    		<img alt="Sponsor: On GitHub 💸" src="https://img.shields.io/badge/sponsor-on_github_💸-21bb42.svg" />
+    	</a>
+     	<a href="https://github.com/laststance/usd-query/actions/workflows/build.yml" target="_blank">
+   		<img alt="Build" src="https://github.com/laststance/usd-query/actions/workflows/build.yml/badge.svg" />
+	</a>
+	<a href="https://github.com/laststance/usd-query/actions/workflows/test.yml" target="_blank">
+    		<img alt="Test" src="https://github.com/laststance/usd-query/actions/workflows/test.yml/badge.svg" />
+	</a>
+	<a href="https://github.com/laststance/usd-query/actions/workflows/tsc.yml" target="_blank">
+    		<img alt="Type Check" src="https://github.com/laststance/usd-query/actions/workflows/tsc.yml/badge.svg" />
+	</a>
+	<a href="https://github.com/laststance/usd-query/actions/workflows/release.yml" target="_blank">
+   		<img alt="Release" src="https://github.com/laststance/usd-query/actions/workflows/release.yml/badge.svg" />
+	</a>
+
 </p>
 
 ## Usage
