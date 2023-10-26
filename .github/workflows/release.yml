@@ -19,8 +19,8 @@ jobs:
       - env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: |
-          if git log --format=%B -n 1 | grep -q 'release'; then
-            pnpm release-it --verbose
+          if git log --format=%B -n 1 | grep -q 'release v[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}'; then
+            pnpm release-it --no-increment --verbose
           fi
 
 name: Release
