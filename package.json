@@ -61,7 +61,7 @@
   "volta": {
     "node": "18.17.1"
   },
-  "packageManager": "pnpm@8.7.1",
+  "packageManager": "pnpm@8.10.0",
   "publishConfig": {
     "provenance": true
   }
