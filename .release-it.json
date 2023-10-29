@@ -1,5 +1,6 @@
 {
   "git": {
+    "changelog": null,
     "tag": true,
     "push": true,
     "commit": false
