@@ -1,4 +1,9 @@
 {
+  "git": {
+    "tag": true,
+    "push": true,
+    "commit": false
+  },
   "github": {
     "autoGenerate": true,
     "release": true,
