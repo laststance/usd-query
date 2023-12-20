@@ -19,7 +19,7 @@ devDependencies:
     version: 6.15.0(eslint@8.56.0)(typescript@5.3.3)
   '@vitest/coverage-istanbul':
     specifier: ^1.0.1
-    version: 1.0.4(vitest@1.0.4)
+    version: 1.1.0(vitest@1.0.4)
   console-fail-test:
     specifier: ^0.2.3
     version: 0.2.3
@@ -1231,8 +1231,8 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vitest/coverage-istanbul@1.0.4(vitest@1.0.4):
-    resolution: {integrity: sha512-6qoSzTR+sanwY/dREqu6OFJupo/mHzCcboh03rLwqH2V2B39505lDr9FpqaLwU1vQgeUKNA+CdHPkpNpusxkDw==}
+  /@vitest/coverage-istanbul@1.1.0(vitest@1.0.4):
+    resolution: {integrity: sha512-sjHGQQu7lkJUYSBMOR3f9AyOlK1LBVr0v7LMar/4i167ltabRWlQ2STBDM4P6Wl659NAcHlZ/RXxrAgJPavDMA==}
     peerDependencies:
       vitest: ^1.0.0
     dependencies:
