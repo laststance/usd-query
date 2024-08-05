@@ -61,7 +61,7 @@ devDependencies:
     version: 17.6.0(typescript@5.5.4)
   tsup:
     specifier: ^8.0.0
-    version: 8.2.3(typescript@5.5.4)
+    version: 8.2.4(typescript@5.5.4)
   typescript:
     specifier: ^5.1.6
     version: 5.5.4
@@ -5387,8 +5387,8 @@ packages:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: true
 
-  /tsup@8.2.3(typescript@5.5.4):
-    resolution: {integrity: sha512-6YNT44oUfXRbZuSMNmN36GzwPPIlD2wBccY7looM2fkTcxkf2NEmwr3OZuDZoySklnrIG4hoEtzy8yUXYOqNcg==}
+  /tsup@8.2.4(typescript@5.5.4):
+    resolution: {integrity: sha512-akpCPePnBnC/CXgRrcy72ZSntgIEUa1jN0oJbbvpALWKNOz1B7aM+UVDWGRGIO/T/PZugAESWDJUAb5FD48o8Q==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
