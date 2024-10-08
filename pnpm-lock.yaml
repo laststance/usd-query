@@ -10,7 +10,7 @@ devDependencies:
     version: 8.56.7
   '@types/node':
     specifier: ^22.0.0
-    version: 22.7.4
+    version: 22.7.5
   '@typescript-eslint/eslint-plugin':
     specifier: ^7.0.0
     version: 7.0.0(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.6.2)
@@ -67,7 +67,7 @@ devDependencies:
     version: 5.6.2
   vitest:
     specifier: ^2.0.1
-    version: 2.1.2(@types/node@22.7.4)(jsdom@25.0.1)
+    version: 2.1.2(@types/node@22.7.5)(jsdom@25.0.1)
 
 packages:
 
@@ -784,7 +784,7 @@ packages:
       '@inquirer/figures': 1.0.5
       '@inquirer/type': 1.5.2
       '@types/mute-stream': 0.0.4
-      '@types/node': 22.7.4
+      '@types/node': 22.7.5
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       cli-spinners: 2.9.2
@@ -1288,11 +1288,11 @@ packages:
   /@types/mute-stream@0.0.4:
     resolution: {integrity: sha512-CPM9nzrCPPJHQNA9keH9CVkVI+WR5kMa+7XEs5jcGQ0VoAGnLv242w8lIVgwAEfmE4oufJRaTc9PNLQl0ioAow==}
     dependencies:
-      '@types/node': 22.7.4
+      '@types/node': 22.7.5
     dev: true
 
-  /@types/node@22.7.4:
-    resolution: {integrity: sha512-y+NPi1rFzDs1NdQHHToqeiX2TIS79SWEAw9GYhkkx8bD0ChpfqC+n2j5OXOCpzfojBEBt6DnEnnG9MY0zk1XLg==}
+  /@types/node@22.7.5:
+    resolution: {integrity: sha512-jML7s2NAzMWc//QSJ1a3prpk78cOPchGvXJsC3C6R6PSMoooztvRVQEz89gmBTBY1SPMaqo5teB4uNHPdetShQ==}
     dependencies:
       undici-types: 6.19.6
     dev: true
@@ -1565,7 +1565,7 @@ packages:
       magicast: 0.3.4
       test-exclude: 7.0.1
       tinyrainbow: 1.2.0
-      vitest: 2.1.2(@types/node@22.7.4)(jsdom@25.0.1)
+      vitest: 2.1.2(@types/node@22.7.5)(jsdom@25.0.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1594,7 +1594,7 @@ packages:
       '@vitest/spy': 2.1.2
       estree-walker: 3.0.3
       magic-string: 0.30.11
-      vite: 5.0.5(@types/node@22.7.4)
+      vite: 5.0.5(@types/node@22.7.5)
     dev: true
 
   /@vitest/pretty-format@2.1.2:
@@ -2816,7 +2816,7 @@ packages:
       '@typescript-eslint/eslint-plugin': 7.0.0(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.6.2)
       '@typescript-eslint/utils': 7.7.1(eslint@8.57.0)(typescript@5.6.2)
       eslint: 8.57.0
-      vitest: 2.1.2(@types/node@22.7.4)(jsdom@25.0.1)
+      vitest: 2.1.2(@types/node@22.7.5)(jsdom@25.0.1)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -5583,7 +5583,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-node@2.1.2(@types/node@22.7.4):
+  /vite-node@2.1.2(@types/node@22.7.5):
     resolution: {integrity: sha512-HPcGNN5g/7I2OtPjLqgOtCRu/qhVvBxTUD3qzitmL0SrG1cWFzxzhMDWussxSbrRYWqnKf8P2jiNhPMSN+ymsQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -5591,7 +5591,7 @@ packages:
       cac: 6.7.14
       debug: 4.3.6
       pathe: 1.1.2
-      vite: 5.0.5(@types/node@22.7.4)
+      vite: 5.0.5(@types/node@22.7.5)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -5603,7 +5603,7 @@ packages:
       - terser
     dev: true
 
-  /vite@5.0.5(@types/node@22.7.4):
+  /vite@5.0.5(@types/node@22.7.5):
     resolution: {integrity: sha512-OekeWqR9Ls56f3zd4CaxzbbS11gqYkEiBtnWFFgYR2WV8oPJRRKq0mpskYy/XaoCL3L7VINDhqqOMNDiYdGvGg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -5631,7 +5631,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 22.7.4
+      '@types/node': 22.7.5
       esbuild: 0.19.5
       postcss: 8.4.32
       rollup: 4.19.0
@@ -5639,7 +5639,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@2.1.2(@types/node@22.7.4)(jsdom@25.0.1):
+  /vitest@2.1.2(@types/node@22.7.5)(jsdom@25.0.1):
     resolution: {integrity: sha512-veNjLizOMkRrJ6xxb+pvxN6/QAWg95mzcRjtmkepXdN87FNfxAss9RKe2far/G9cQpipfgP2taqg0KiWsquj8A==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -5664,7 +5664,7 @@ packages:
       jsdom:
         optional: true
     dependencies:
-      '@types/node': 22.7.4
+      '@types/node': 22.7.5
       '@vitest/expect': 2.1.2
       '@vitest/mocker': 2.1.2(@vitest/spy@2.1.2)(vite@5.0.5)
       '@vitest/pretty-format': 2.1.2
@@ -5682,8 +5682,8 @@ packages:
       tinyexec: 0.3.0
       tinypool: 1.0.0
       tinyrainbow: 1.2.0
-      vite: 5.0.5(@types/node@22.7.4)
-      vite-node: 2.1.2(@types/node@22.7.4)
+      vite: 5.0.5(@types/node@22.7.5)
+      vite-node: 2.1.2(@types/node@22.7.5)
       why-is-node-running: 2.3.0
     transitivePeerDependencies:
       - less
