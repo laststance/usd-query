@@ -40,7 +40,7 @@
     "@vitest/coverage-istanbul": "^2.0.1",
     "console-fail-test": "^0.5.0",
     "eslint": "^8.47.0",
-    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-prettier": "^10.0.1",
     "eslint-config-ts-prefixer": "^1.12.3",
     "eslint-import-resolver-typescript": "^3.6.0",
     "eslint-plugin-import": "^2.28.1",
