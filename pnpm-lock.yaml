@@ -31,7 +31,7 @@ devDependencies:
     version: 10.1.5(eslint@8.57.0)
   eslint-config-ts-prefixer:
     specifier: ^1.12.3
-    version: 1.14.2(@typescript-eslint/eslint-plugin@7.0.0)(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.3)(eslint-plugin-import@2.31.0)(eslint-plugin-prettier@5.4.1)(eslint@8.57.0)(prettier@3.5.3)(typescript@5.8.3)
+    version: 1.14.2(@typescript-eslint/eslint-plugin@7.0.0)(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.3)(eslint-plugin-import@2.31.0)(eslint-plugin-prettier@5.5.0)(eslint@8.57.0)(prettier@3.5.3)(typescript@5.8.3)
   eslint-import-resolver-typescript:
     specifier: ^4.3.4
     version: 4.4.3(eslint-plugin-import@2.31.0)(eslint@8.57.0)
@@ -40,7 +40,7 @@ devDependencies:
     version: 2.31.0(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.3)(eslint@8.57.0)
   eslint-plugin-prettier:
     specifier: ^5.0.0
-    version: 5.4.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.5)(eslint@8.57.0)(prettier@3.5.3)
+    version: 5.5.0(@types/eslint@8.56.7)(eslint-config-prettier@10.1.5)(eslint@8.57.0)(prettier@3.5.3)
   eslint-plugin-vitest:
     specifier: ^0.5.0
     version: 0.5.4(@typescript-eslint/eslint-plugin@7.0.0)(eslint@8.57.0)(typescript@5.8.3)(vitest@3.2.4)
@@ -3088,7 +3088,7 @@ packages:
       eslint: 8.57.0
     dev: true
 
-  /eslint-config-ts-prefixer@1.14.2(@typescript-eslint/eslint-plugin@7.0.0)(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.3)(eslint-plugin-import@2.31.0)(eslint-plugin-prettier@5.4.1)(eslint@8.57.0)(prettier@3.5.3)(typescript@5.8.3):
+  /eslint-config-ts-prefixer@1.14.2(@typescript-eslint/eslint-plugin@7.0.0)(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.3)(eslint-plugin-import@2.31.0)(eslint-plugin-prettier@5.5.0)(eslint@8.57.0)(prettier@3.5.3)(typescript@5.8.3):
     resolution: {integrity: sha512-HSL72ii/tFWW4rOEzNaVd8b89VUFwWd4z9NvjhV0NP/lU11rJTl24FnfWWrZf1nY84vdyb+GEMjWCuf8p7iilw==}
     hasBin: true
     peerDependencies:
@@ -3108,7 +3108,7 @@ packages:
       eslint: 8.57.0
       eslint-import-resolver-typescript: 4.4.3(eslint-plugin-import@2.31.0)(eslint@8.57.0)
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.3)(eslint@8.57.0)
-      eslint-plugin-prettier: 5.4.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.5)(eslint@8.57.0)(prettier@3.5.3)
+      eslint-plugin-prettier: 5.5.0(@types/eslint@8.56.7)(eslint-config-prettier@10.1.5)(eslint@8.57.0)(prettier@3.5.3)
       inquirer: 10.2.2
       prettier: 3.5.3
       strip-json-comments: 5.0.1
@@ -3232,8 +3232,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-prettier@5.4.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.5)(eslint@8.57.0)(prettier@3.5.3):
-    resolution: {integrity: sha512-9dF+KuU/Ilkq27A8idRP7N2DH8iUR6qXcjF3FR2wETY21PZdBrIjwCau8oboyGj9b7etWmTGEeM8e7oOed6ZWg==}
+  /eslint-plugin-prettier@5.5.0(@types/eslint@8.56.7)(eslint-config-prettier@10.1.5)(eslint@8.57.0)(prettier@3.5.3):
+    resolution: {integrity: sha512-8qsOYwkkGrahrgoUv76NZi23koqXOGiiEzXMrT8Q7VcYaUISR+5MorIUxfWqYXN0fN/31WbSrxCxFkVQ43wwrA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       '@types/eslint': '>=8.0.0'
