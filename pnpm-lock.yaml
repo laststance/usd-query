@@ -31,7 +31,7 @@ devDependencies:
     version: 10.1.5(eslint@8.57.0)
   eslint-config-ts-prefixer:
     specifier: ^1.12.3
-    version: 1.14.2(@typescript-eslint/eslint-plugin@7.0.0)(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.3)(eslint-plugin-import@2.32.0)(eslint-plugin-prettier@5.5.1)(eslint@8.57.0)(prettier@3.6.0)(typescript@5.8.3)
+    version: 1.14.2(@typescript-eslint/eslint-plugin@7.0.0)(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.3)(eslint-plugin-import@2.32.0)(eslint-plugin-prettier@5.5.1)(eslint@8.57.0)(prettier@3.6.2)(typescript@5.8.3)
   eslint-import-resolver-typescript:
     specifier: ^4.3.4
     version: 4.4.3(eslint-plugin-import@2.32.0)(eslint@8.57.0)
@@ -40,7 +40,7 @@ devDependencies:
     version: 2.32.0(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.3)(eslint@8.57.0)
   eslint-plugin-prettier:
     specifier: ^5.0.0
-    version: 5.5.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.5)(eslint@8.57.0)(prettier@3.6.0)
+    version: 5.5.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.5)(eslint@8.57.0)(prettier@3.6.2)
   eslint-plugin-vitest:
     specifier: ^0.5.0
     version: 0.5.4(@typescript-eslint/eslint-plugin@7.0.0)(eslint@8.57.0)(typescript@5.8.3)(vitest@3.2.4)
@@ -55,7 +55,7 @@ devDependencies:
     version: 16.1.2
   prettier:
     specifier: ^3.0.2
-    version: 3.6.0
+    version: 3.6.2
   release-it:
     specifier: ^19.0.1
     version: 19.0.3(@types/node@24.0.4)
@@ -3127,7 +3127,7 @@ packages:
       eslint: 8.57.0
     dev: true
 
-  /eslint-config-ts-prefixer@1.14.2(@typescript-eslint/eslint-plugin@7.0.0)(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.3)(eslint-plugin-import@2.32.0)(eslint-plugin-prettier@5.5.1)(eslint@8.57.0)(prettier@3.6.0)(typescript@5.8.3):
+  /eslint-config-ts-prefixer@1.14.2(@typescript-eslint/eslint-plugin@7.0.0)(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.3)(eslint-plugin-import@2.32.0)(eslint-plugin-prettier@5.5.1)(eslint@8.57.0)(prettier@3.6.2)(typescript@5.8.3):
     resolution: {integrity: sha512-HSL72ii/tFWW4rOEzNaVd8b89VUFwWd4z9NvjhV0NP/lU11rJTl24FnfWWrZf1nY84vdyb+GEMjWCuf8p7iilw==}
     hasBin: true
     peerDependencies:
@@ -3147,9 +3147,9 @@ packages:
       eslint: 8.57.0
       eslint-import-resolver-typescript: 4.4.3(eslint-plugin-import@2.32.0)(eslint@8.57.0)
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.3)(eslint@8.57.0)
-      eslint-plugin-prettier: 5.5.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.5)(eslint@8.57.0)(prettier@3.6.0)
+      eslint-plugin-prettier: 5.5.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.5)(eslint@8.57.0)(prettier@3.6.2)
       inquirer: 10.2.2
-      prettier: 3.6.0
+      prettier: 3.6.2
       strip-json-comments: 5.0.1
       typescript: 5.8.3
     dev: true
@@ -3271,7 +3271,7 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-prettier@5.5.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.5)(eslint@8.57.0)(prettier@3.6.0):
+  /eslint-plugin-prettier@5.5.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.5)(eslint@8.57.0)(prettier@3.6.2):
     resolution: {integrity: sha512-dobTkHT6XaEVOo8IO90Q4DOSxnm3Y151QxPJlM/vKC0bVy+d6cVWQZLlFiuZPP0wS6vZwSKeJgKkcS+KfMBlRw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -3288,7 +3288,7 @@ packages:
       '@types/eslint': 8.56.7
       eslint: 8.57.0
       eslint-config-prettier: 10.1.5(eslint@8.57.0)
-      prettier: 3.6.0
+      prettier: 3.6.2
       prettier-linter-helpers: 1.0.0
       synckit: 0.11.8
     dev: true
@@ -5062,8 +5062,8 @@ packages:
       fast-diff: 1.3.0
     dev: true
 
-  /prettier@3.6.0:
-    resolution: {integrity: sha512-ujSB9uXHJKzM/2GBuE0hBOUgC77CN3Bnpqa+g80bkv3T3A93wL/xlzDATHhnhkzifz/UE2SNOvmbTz5hSkDlHw==}
+  /prettier@3.6.2:
+    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
