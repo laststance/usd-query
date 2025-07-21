@@ -31,7 +31,7 @@ devDependencies:
     version: 10.1.8(eslint@8.57.0)
   eslint-config-ts-prefixer:
     specifier: ^1.12.3
-    version: 1.14.2(@typescript-eslint/eslint-plugin@7.0.0)(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.4)(eslint-plugin-import@2.32.0)(eslint-plugin-prettier@5.5.1)(eslint@8.57.0)(prettier@3.6.2)(typescript@5.8.3)
+    version: 1.14.2(@typescript-eslint/eslint-plugin@7.0.0)(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.4)(eslint-plugin-import@2.32.0)(eslint-plugin-prettier@5.5.3)(eslint@8.57.0)(prettier@3.6.2)(typescript@5.8.3)
   eslint-import-resolver-typescript:
     specifier: ^4.3.4
     version: 4.4.4(eslint-plugin-import@2.32.0)(eslint@8.57.0)
@@ -40,7 +40,7 @@ devDependencies:
     version: 2.32.0(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.4)(eslint@8.57.0)
   eslint-plugin-prettier:
     specifier: ^5.0.0
-    version: 5.5.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.8)(eslint@8.57.0)(prettier@3.6.2)
+    version: 5.5.3(@types/eslint@8.56.7)(eslint-config-prettier@10.1.8)(eslint@8.57.0)(prettier@3.6.2)
   eslint-plugin-vitest:
     specifier: ^0.5.0
     version: 0.5.4(@typescript-eslint/eslint-plugin@7.0.0)(eslint@8.57.0)(typescript@5.8.3)(vitest@3.2.4)
@@ -1438,8 +1438,8 @@ packages:
     dev: true
     optional: true
 
-  /@pkgr/core@0.2.7:
-    resolution: {integrity: sha512-YLT9Zo3oNPJoBjBc4q8G2mjU4tqIbf5CEOORbUUr48dCD9q3umJ3IPlVqOqDakPfd2HuwccBaqlGhN4Gmr5OWg==}
+  /@pkgr/core@0.2.9:
+    resolution: {integrity: sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     dev: true
 
@@ -3207,7 +3207,7 @@ packages:
       eslint: 8.57.0
     dev: true
 
-  /eslint-config-ts-prefixer@1.14.2(@typescript-eslint/eslint-plugin@7.0.0)(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.4)(eslint-plugin-import@2.32.0)(eslint-plugin-prettier@5.5.1)(eslint@8.57.0)(prettier@3.6.2)(typescript@5.8.3):
+  /eslint-config-ts-prefixer@1.14.2(@typescript-eslint/eslint-plugin@7.0.0)(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.4)(eslint-plugin-import@2.32.0)(eslint-plugin-prettier@5.5.3)(eslint@8.57.0)(prettier@3.6.2)(typescript@5.8.3):
     resolution: {integrity: sha512-HSL72ii/tFWW4rOEzNaVd8b89VUFwWd4z9NvjhV0NP/lU11rJTl24FnfWWrZf1nY84vdyb+GEMjWCuf8p7iilw==}
     hasBin: true
     peerDependencies:
@@ -3227,7 +3227,7 @@ packages:
       eslint: 8.57.0
       eslint-import-resolver-typescript: 4.4.4(eslint-plugin-import@2.32.0)(eslint@8.57.0)
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.4)(eslint@8.57.0)
-      eslint-plugin-prettier: 5.5.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.8)(eslint@8.57.0)(prettier@3.6.2)
+      eslint-plugin-prettier: 5.5.3(@types/eslint@8.56.7)(eslint-config-prettier@10.1.8)(eslint@8.57.0)(prettier@3.6.2)
       inquirer: 10.2.2
       prettier: 3.6.2
       strip-json-comments: 5.0.1
@@ -3351,8 +3351,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-prettier@5.5.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.8)(eslint@8.57.0)(prettier@3.6.2):
-    resolution: {integrity: sha512-dobTkHT6XaEVOo8IO90Q4DOSxnm3Y151QxPJlM/vKC0bVy+d6cVWQZLlFiuZPP0wS6vZwSKeJgKkcS+KfMBlRw==}
+  /eslint-plugin-prettier@5.5.3(@types/eslint@8.56.7)(eslint-config-prettier@10.1.8)(eslint@8.57.0)(prettier@3.6.2):
+    resolution: {integrity: sha512-NAdMYww51ehKfDyDhv59/eIItUVzU0Io9H2E8nHNGKEeeqlnci+1gCvrHib6EmZdf6GxF+LCV5K7UC65Ezvw7w==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       '@types/eslint': '>=8.0.0'
@@ -3370,7 +3370,7 @@ packages:
       eslint-config-prettier: 10.1.8(eslint@8.57.0)
       prettier: 3.6.2
       prettier-linter-helpers: 1.0.0
-      synckit: 0.11.8
+      synckit: 0.11.11
     dev: true
 
   /eslint-plugin-vitest@0.5.4(@typescript-eslint/eslint-plugin@7.0.0)(eslint@8.57.0)(typescript@5.8.3)(vitest@3.2.4):
@@ -5810,11 +5810,11 @@ packages:
     resolution: {integrity: sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==}
     dev: true
 
-  /synckit@0.11.8:
-    resolution: {integrity: sha512-+XZ+r1XGIJGeQk3VvXhT6xx/VpbHsRzsTkGgF6E5RX9TTXD0118l87puaEBZ566FhqblC6U0d4XnubznJDm30A==}
+  /synckit@0.11.11:
+    resolution: {integrity: sha512-MeQTA1r0litLUf0Rp/iisCaL8761lKAZHaimlbGK4j0HysC4PLfqygQj9srcs0m2RdtDYnF8UuYyKpbjHYp7Jw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     dependencies:
-      '@pkgr/core': 0.2.7
+      '@pkgr/core': 0.2.9
     dev: true
 
   /test-exclude@7.0.1:
