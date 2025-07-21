@@ -28,7 +28,7 @@ devDependencies:
     version: 8.57.0
   eslint-config-prettier:
     specifier: ^10.0.1
-    version: 10.1.5(eslint@8.57.0)
+    version: 10.1.8(eslint@8.57.0)
   eslint-config-ts-prefixer:
     specifier: ^1.12.3
     version: 1.14.2(@typescript-eslint/eslint-plugin@7.0.0)(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.4)(eslint-plugin-import@2.32.0)(eslint-plugin-prettier@5.5.1)(eslint@8.57.0)(prettier@3.6.2)(typescript@5.8.3)
@@ -40,7 +40,7 @@ devDependencies:
     version: 2.32.0(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.4)(eslint@8.57.0)
   eslint-plugin-prettier:
     specifier: ^5.0.0
-    version: 5.5.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.5)(eslint@8.57.0)(prettier@3.6.2)
+    version: 5.5.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.8)(eslint@8.57.0)(prettier@3.6.2)
   eslint-plugin-vitest:
     specifier: ^0.5.0
     version: 0.5.4(@typescript-eslint/eslint-plugin@7.0.0)(eslint@8.57.0)(typescript@5.8.3)(vitest@3.2.4)
@@ -283,25 +283,25 @@ packages:
     engines: {node: '>=18'}
     dev: true
 
-  /@emnapi/core@1.4.4:
-    resolution: {integrity: sha512-A9CnAbC6ARNMKcIcrQwq6HeHCjpcBZ5wSx4U01WXCqEKlrzB9F9315WDNHkrs2xbx7YjjSxbUYxuN6EQzpcY2g==}
+  /@emnapi/core@1.4.5:
+    resolution: {integrity: sha512-XsLw1dEOpkSX/WucdqUhPWP7hDxSvZiY+fsUC14h+FtQ2Ifni4znbBt8punRX+Uj2JG/uDb8nEHVKvrVlvdZ5Q==}
     requiresBuild: true
     dependencies:
-      '@emnapi/wasi-threads': 1.0.3
+      '@emnapi/wasi-threads': 1.0.4
       tslib: 2.8.1
     dev: true
     optional: true
 
-  /@emnapi/runtime@1.4.4:
-    resolution: {integrity: sha512-hHyapA4A3gPaDCNfiqyZUStTMqIkKRshqPIuDOXv1hcBnD4U3l8cP0T1HMCfGRxQ6V64TGCcoswChANyOAwbQg==}
+  /@emnapi/runtime@1.4.5:
+    resolution: {integrity: sha512-++LApOtY0pEEz1zrd9vy1/zXVaVJJ/EbAF3u0fXIzPJEDtnITsBGbbK0EkM72amhl/R5b+5xx0Y/QhcVOpuulg==}
     requiresBuild: true
     dependencies:
       tslib: 2.8.1
     dev: true
     optional: true
 
-  /@emnapi/wasi-threads@1.0.3:
-    resolution: {integrity: sha512-8K5IFFsQqF9wQNJptGbS6FNKgUTsSRYnTqNCG1vPP8jFdjSv18n2mQfJpkt2Oibo9iBEzcDnDxNwKTzC7svlJw==}
+  /@emnapi/wasi-threads@1.0.4:
+    resolution: {integrity: sha512-PJR+bOmMOPH8AtcTGAyYNiuJ3/Fcoj2XN/gBEWzDIKh254XO+mM9XoXHk5GNEhodxeMznbg7BlRojVbKN+gC6g==}
     requiresBuild: true
     dependencies:
       tslib: 2.8.1
@@ -1217,8 +1217,8 @@ packages:
     resolution: {integrity: sha512-ZVWUcfwY4E/yPitQJl481FjFo3K22D6qF0DuFH6Y/nbnE11GY5uguDxZMGXPQ8WQ0128MXQD7TnfHyK4oWoIJQ==}
     requiresBuild: true
     dependencies:
-      '@emnapi/core': 1.4.4
-      '@emnapi/runtime': 1.4.4
+      '@emnapi/core': 1.4.5
+      '@emnapi/runtime': 1.4.5
       '@tybys/wasm-util': 0.10.0
     dev: true
     optional: true
@@ -3198,8 +3198,8 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-prettier@10.1.5(eslint@8.57.0):
-    resolution: {integrity: sha512-zc1UmCpNltmVY34vuLRV61r1K27sWuX39E+uyUnY8xS2Bex88VV9cugG+UZbRSRGtGyFboj+D8JODyme1plMpw==}
+  /eslint-config-prettier@10.1.8(eslint@8.57.0):
+    resolution: {integrity: sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -3227,7 +3227,7 @@ packages:
       eslint: 8.57.0
       eslint-import-resolver-typescript: 4.4.4(eslint-plugin-import@2.32.0)(eslint@8.57.0)
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@4.4.4)(eslint@8.57.0)
-      eslint-plugin-prettier: 5.5.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.5)(eslint@8.57.0)(prettier@3.6.2)
+      eslint-plugin-prettier: 5.5.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.8)(eslint@8.57.0)(prettier@3.6.2)
       inquirer: 10.2.2
       prettier: 3.6.2
       strip-json-comments: 5.0.1
@@ -3351,7 +3351,7 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-prettier@5.5.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.5)(eslint@8.57.0)(prettier@3.6.2):
+  /eslint-plugin-prettier@5.5.1(@types/eslint@8.56.7)(eslint-config-prettier@10.1.8)(eslint@8.57.0)(prettier@3.6.2):
     resolution: {integrity: sha512-dobTkHT6XaEVOo8IO90Q4DOSxnm3Y151QxPJlM/vKC0bVy+d6cVWQZLlFiuZPP0wS6vZwSKeJgKkcS+KfMBlRw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -3367,7 +3367,7 @@ packages:
     dependencies:
       '@types/eslint': 8.56.7
       eslint: 8.57.0
-      eslint-config-prettier: 10.1.5(eslint@8.57.0)
+      eslint-config-prettier: 10.1.8(eslint@8.57.0)
       prettier: 3.6.2
       prettier-linter-helpers: 1.0.0
       synckit: 0.11.8
