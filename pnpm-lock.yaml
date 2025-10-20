@@ -49,7 +49,7 @@ devDependencies:
     version: 9.1.7
   jsdom:
     specifier: ^27.0.0
-    version: 27.0.0(postcss@8.5.6)
+    version: 27.0.1(postcss@8.5.6)
   lint-staged:
     specifier: ^16.0.0
     version: 16.2.4
@@ -67,7 +67,7 @@ devDependencies:
     version: 5.9.3
   vitest:
     specifier: ^3.0.1
-    version: 3.2.4(@types/node@24.8.1)(jsdom@27.0.0)
+    version: 3.2.4(@types/node@24.8.1)(jsdom@27.0.1)
 
 packages:
 
@@ -84,23 +84,24 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
-  /@asamuzakjp/css-color@4.0.4:
-    resolution: {integrity: sha512-cKjSKvWGmAziQWbCouOsFwb14mp1betm8Y7Fn+yglDMUUu3r9DCbJ9iJbeFDenLMqFbIMC0pQP8K+B8LAxX3OQ==}
+  /@asamuzakjp/css-color@4.0.5:
+    resolution: {integrity: sha512-lMrXidNhPGsDjytDy11Vwlb6OIGrT3CmLg3VWNFyWkLWtijKl7xjvForlh8vuj0SHGjgl4qZEQzUmYTeQA2JFQ==}
     dependencies:
       '@csstools/css-calc': 2.1.4(@csstools/css-parser-algorithms@3.0.5)(@csstools/css-tokenizer@3.0.4)
       '@csstools/css-color-parser': 3.1.0(@csstools/css-parser-algorithms@3.0.5)(@csstools/css-tokenizer@3.0.4)
       '@csstools/css-parser-algorithms': 3.0.5(@csstools/css-tokenizer@3.0.4)
       '@csstools/css-tokenizer': 3.0.4
-      lru-cache: 11.2.1
+      lru-cache: 11.2.2
     dev: true
 
-  /@asamuzakjp/dom-selector@6.5.4:
-    resolution: {integrity: sha512-RNSNk1dnB8lAn+xdjlRoM4CzdVrHlmXZtSXAWs2jyl4PiBRWqTZr9ML5M710qgd9RPTBsVG6P0SLy7dwy0Foig==}
+  /@asamuzakjp/dom-selector@6.7.2:
+    resolution: {integrity: sha512-ccKogJI+0aiDhOahdjANIc9SDixSud1gbwdVrhn7kMopAtLXqsz9MKmQQtIl6Y5aC2IYq+j4dz/oedL2AVMmVQ==}
     dependencies:
       '@asamuzakjp/nwsapi': 2.3.9
       bidi-js: 1.0.3
       css-tree: 3.1.0
       is-potential-custom-element-name: 1.0.1
+      lru-cache: 11.2.2
     dev: true
 
   /@asamuzakjp/nwsapi@2.3.9:
@@ -2244,7 +2245,7 @@ packages:
       magicast: 0.3.5
       test-exclude: 7.0.1
       tinyrainbow: 2.0.0
-      vitest: 3.2.4(@types/node@24.8.1)(jsdom@27.0.0)
+      vitest: 3.2.4(@types/node@24.8.1)(jsdom@27.0.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2784,11 +2785,11 @@ packages:
       source-map-js: 1.2.1
     dev: true
 
-  /cssstyle@5.3.0(postcss@8.5.6):
-    resolution: {integrity: sha512-RveJPnk3m7aarYQ2bJ6iw+Urh55S6FzUiqtBq+TihnTDP4cI8y/TYDqGOyqgnG1J1a6BxJXZsV9JFSTulm9Z7g==}
+  /cssstyle@5.3.1(postcss@8.5.6):
+    resolution: {integrity: sha512-g5PC9Aiph9eiczFpcgUhd9S4UUO3F+LHGRIi5NUMZ+4xtoIYbHNZwZnWA2JsFGe8OU8nl4WyaEFiZuGuxlutJQ==}
     engines: {node: '>=20'}
     dependencies:
-      '@asamuzakjp/css-color': 4.0.4
+      '@asamuzakjp/css-color': 4.0.5
       '@csstools/css-syntax-patches-for-csstree': 1.0.14(postcss@8.5.6)
       css-tree: 3.1.0
     transitivePeerDependencies:
@@ -2805,7 +2806,7 @@ packages:
     engines: {node: '>=20'}
     dependencies:
       whatwg-mimetype: 4.0.0
-      whatwg-url: 15.0.0
+      whatwg-url: 15.1.0
     dev: true
 
   /data-view-buffer@1.0.2:
@@ -3399,7 +3400,7 @@ packages:
       '@typescript-eslint/eslint-plugin': 7.0.0(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.9.3)
       '@typescript-eslint/utils': 7.7.1(eslint@8.57.0)(typescript@5.9.3)
       eslint: 8.57.0
-      vitest: 3.2.4(@types/node@24.8.1)(jsdom@27.0.0)
+      vitest: 3.2.4(@types/node@24.8.1)(jsdom@27.0.1)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -4418,8 +4419,8 @@ packages:
       argparse: 2.0.1
     dev: true
 
-  /jsdom@27.0.0(postcss@8.5.6):
-    resolution: {integrity: sha512-lIHeR1qlIRrIN5VMccd8tI2Sgw6ieYXSVktcSHaNe3Z5nE/tcPQYQWOq00wxMvYOsz+73eAkNenVvmPC6bba9A==}
+  /jsdom@27.0.1(postcss@8.5.6):
+    resolution: {integrity: sha512-SNSQteBL1IlV2zqhwwolaG9CwhIhTvVHWg3kTss/cLE7H/X4644mtPQqYvCfsSrGQWt9hSZcgOXX8bOZaMN+kA==}
     engines: {node: '>=20'}
     peerDependencies:
       canvas: ^3.0.0
@@ -4427,15 +4428,15 @@ packages:
       canvas:
         optional: true
     dependencies:
-      '@asamuzakjp/dom-selector': 6.5.4
-      cssstyle: 5.3.0(postcss@8.5.6)
+      '@asamuzakjp/dom-selector': 6.7.2
+      cssstyle: 5.3.1(postcss@8.5.6)
       data-urls: 6.0.0
       decimal.js: 10.6.0
       html-encoding-sniffer: 4.0.0
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.6
       is-potential-custom-element-name: 1.0.1
-      parse5: 7.3.0
+      parse5: 8.0.0
       rrweb-cssom: 0.8.0
       saxes: 6.0.0
       symbol-tree: 3.2.4
@@ -4444,7 +4445,7 @@ packages:
       webidl-conversions: 8.0.0
       whatwg-encoding: 3.1.1
       whatwg-mimetype: 4.0.0
-      whatwg-url: 15.0.0
+      whatwg-url: 15.1.0
       ws: 8.18.3
       xml-name-validator: 5.0.0
     transitivePeerDependencies:
@@ -4595,8 +4596,8 @@ packages:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
     dev: true
 
-  /lru-cache@11.2.1:
-    resolution: {integrity: sha512-r8LA6i4LP4EeWOhqBaZZjDWwehd1xUJPCJd9Sv300H0ZmcUER4+JPh7bqqZeqs1o5pgtgvXm+d9UGrB5zZGDiQ==}
+  /lru-cache@11.2.2:
+    resolution: {integrity: sha512-F9ODfyqML2coTIsQpSkRHnLSZMtkU8Q+mSfcaIyKwy58u+8k5nvAYeiNhsyMARvzNcXJ9QfWVrcPsC9e9rAxtg==}
     engines: {node: 20 || >=22}
     dev: true
 
@@ -5018,8 +5019,8 @@ packages:
       parse-path: 7.1.0
     dev: true
 
-  /parse5@7.3.0:
-    resolution: {integrity: sha512-IInvU7fabl34qmi9gY8XOVxhYyMyuH2xUNpb2q8/Y+7552KlejkRvqvD19nMoUW/uQGGbqNpA6Tufu5FL5BZgw==}
+  /parse5@8.0.0:
+    resolution: {integrity: sha512-9m4m5GSgXjL4AjumKzq1Fgfp3Z8rsvjRNbnkVwfu2ImRqE5D0LnY2QfDen18FSY9C573YU5XxSapdHZTZ2WolA==}
     dependencies:
       entities: 6.0.1
     dev: true
@@ -5892,15 +5893,15 @@ packages:
     engines: {node: '>=14.0.0'}
     dev: true
 
-  /tldts-core@7.0.14:
-    resolution: {integrity: sha512-viZGNK6+NdluOJWwTO9olaugx0bkKhscIdriQQ+lNNhwitIKvb+SvhbYgnCz6j9p7dX3cJntt4agQAKMXLjJ5g==}
+  /tldts-core@7.0.17:
+    resolution: {integrity: sha512-DieYoGrP78PWKsrXr8MZwtQ7GLCUeLxihtjC1jZsW1DnvSMdKPitJSe8OSYDM2u5H6g3kWJZpePqkp43TfLh0g==}
     dev: true
 
-  /tldts@7.0.14:
-    resolution: {integrity: sha512-lMNHE4aSI3LlkMUMicTmAG3tkkitjOQGDTFboPJwAg2kJXKP1ryWEyqujktg5qhrFZOkk5YFzgkxg3jErE+i5w==}
+  /tldts@7.0.17:
+    resolution: {integrity: sha512-Y1KQBgDd/NUc+LfOtKS6mNsC9CCaH+m2P1RoIZy7RAPo3C3/t8X45+zgut31cRZtZ3xKPjfn3TkGTrctC2TQIQ==}
     hasBin: true
     dependencies:
-      tldts-core: 7.0.14
+      tldts-core: 7.0.17
     dev: true
 
   /tmp@0.0.33:
@@ -5921,7 +5922,7 @@ packages:
     resolution: {integrity: sha512-kXuRi1mtaKMrsLUxz3sQYvVl37B0Ns6MzfrtV5DvJceE9bPyspOqk9xxv7XbZWcfLWbFmm997vl83qUWVJA64w==}
     engines: {node: '>=16'}
     dependencies:
-      tldts: 7.0.14
+      tldts: 7.0.17
     dev: true
 
   /tr46@1.0.1:
@@ -5930,9 +5931,9 @@ packages:
       punycode: 2.3.1
     dev: true
 
-  /tr46@5.1.1:
-    resolution: {integrity: sha512-hdF5ZgjTqgAntKkklYw0R03MG2x/bSzTtkxmIRw/sTNV8YXsCJ1tfLAX23lhxhHJlEf3CRCOCGGWw3vI3GaSPw==}
-    engines: {node: '>=18'}
+  /tr46@6.0.0:
+    resolution: {integrity: sha512-bLVMLPtstlZ4iMQHpFHTR7GAGj2jxi8Dg0s2h2MafAE4uSWF98FC/3MomU51iQAMf8/qDUbKWf5GxuvvVcXEhw==}
+    engines: {node: '>=20'}
     dependencies:
       punycode: 2.3.1
     dev: true
@@ -6251,7 +6252,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@3.2.4(@types/node@24.8.1)(jsdom@27.0.0):
+  /vitest@3.2.4(@types/node@24.8.1)(jsdom@27.0.1):
     resolution: {integrity: sha512-LUCP5ev3GURDysTWiP47wRRUpLKMOfPh+yKTx3kVIEiu5KOMeqzpnYNsKyOoVrULivR8tLcks4+lga33Whn90A==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
@@ -6291,7 +6292,7 @@ packages:
       chai: 5.2.0
       debug: 4.4.1
       expect-type: 1.2.1
-      jsdom: 27.0.0(postcss@8.5.6)
+      jsdom: 27.0.1(postcss@8.5.6)
       magic-string: 0.30.17
       pathe: 2.0.3
       picomatch: 4.0.2
@@ -6347,11 +6348,11 @@ packages:
     engines: {node: '>=18'}
     dev: true
 
-  /whatwg-url@15.0.0:
-    resolution: {integrity: sha512-+0q+Pc6oUhtbbeUfuZd4heMNOLDJDdagYxv756mCf9vnLF+NTj4zvv5UyYNkHJpc3CJIesMVoEIOdhi7L9RObA==}
+  /whatwg-url@15.1.0:
+    resolution: {integrity: sha512-2ytDk0kiEj/yu90JOAp44PVPUkO9+jVhyf+SybKlRHSDlvOOZhdPIrr7xTH64l4WixO2cP+wQIcgujkGBPPz6g==}
     engines: {node: '>=20'}
     dependencies:
-      tr46: 5.1.1
+      tr46: 6.0.0
       webidl-conversions: 8.0.0
     dev: true
 
