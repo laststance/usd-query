@@ -58,7 +58,7 @@ devDependencies:
     version: 3.7.4
   release-it:
     specifier: ^19.0.1
-    version: 19.2.0(@types/node@25.0.3)
+    version: 19.2.1(@types/node@25.0.3)
   tsup:
     specifier: ^8.0.0
     version: 8.5.1(typescript@5.9.3)
@@ -5236,8 +5236,8 @@ packages:
       set-function-name: 2.0.2
     dev: true
 
-  /release-it@19.2.0(@types/node@25.0.3):
-    resolution: {integrity: sha512-dMIVyNGckKu2UWDvPfwIw+VMhJbs9qB4b3M5p8szYdKd25h0+P/LSBFYq3+uHQ9n99w/yX+ZnoMHSnjnC/wq7w==}
+  /release-it@19.2.1(@types/node@25.0.3):
+    resolution: {integrity: sha512-Tu9kZKtCJkrLG6nD0OLbVdVP8wHgpQBpRvtZQmdEgGHDwg0FiiHmdnnPskTQllPWJFMtpHo3O7MHtr8/AWEFbA==}
     engines: {node: ^20.12.0 || >=22.0.0}
     hasBin: true
     dependencies:
